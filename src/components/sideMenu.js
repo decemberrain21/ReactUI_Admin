@@ -1,10 +1,9 @@
-
 import React from 'react';
 import '../css/sideMenu.css';
-class Heading extends React.Component {
+class leftBar extends React.Component {
     render() {
-        return (
-            <div className="container-fluid">
+      return (
+        <div className="container-fluid">
         <div className="row d-flex d-md-block flex-nowrap wrapper">
             <div className="col-md-3 float-left col-1 pl-0 pr-0 collapse width show" id="sidebar">
                     <div className="list-group border-0 card text-center text-md-left">
@@ -101,8 +100,7 @@ class Heading extends React.Component {
             </main>
         </div>
     </div>
-        )
+      )
     }
 }
-
-export default Heading;
+export default leftBar;
