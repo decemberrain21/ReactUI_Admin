@@ -80,7 +80,7 @@ class Heading extends React.Component {
                             horizontal collapsible
                         </button>
                         <div id="demo" className="width collapse show" aria-expanded="true">
-                            <div className="list-group" style="width:400px">
+                            <div className="list-group" style={{width:'400px'}}>
                                 <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
                                 <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
                             </div>

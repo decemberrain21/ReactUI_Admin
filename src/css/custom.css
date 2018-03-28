@@ -6,3 +6,6 @@
     border-top: 3px solid green !important;
     top: 55px !important;
 }
+.navbar-nav .nav-link{
+    color: #ccc !important;
+}
